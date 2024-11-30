@@ -18,19 +18,11 @@ Here’s a high-level overview of the workflow followed in this project:
 6.  Explore distributions among formed clusters.
 7.  Discuss outcomes and make recommendations.
 
-## 2. Content
-
-### 2.1. Files
-
-* `notebook.ipynb`: Jupyter notebook containing all code for this project and showcasing the proposed solution to the problem.
-*  `data/portfolio.json` Dataset containing meta data about the promotions offered by the company to their customer base.
+## 2. Dataset
+The published dataset contains simulated data that mimics customer behaviors on the Starbucks Rewards mobile app. Once every few days, Starbucks sends out an offer to users of the mobile app. An offer can be merely an  _informational_  advertisement or an actual offer such as a  _discount_  or  _buy-one-get-one-free_. This dataset is a simplified version of the real Starbucks app because the underlying simulator only has one product whereas Starbucks actually sells dozens of products.
+*  `data/portfolio.json` Dataset containing metadata about the promotions offered by the company to their customer base.
 * `data/profile.json` Dataset containing demographic data about the customers enrolled in the reward program via the mobile app.
 * `data/transcript.json` Dataset containing time-stamped records for transactions, offers received, offers viewed, and offers completed by customers.
-* `images/` File containing assistive images.
-
-### 2.1. Data
-
-Published dataset contains simulated data that mimics customer behaviors on the Starbucks Rewards mobile app. Once every few days, Starbucks sends out an offer to users of the mobile app. An offer can be merely an  _informational_  advertisement or an actual offer such as a  _discount_  or  _buy-one-get-one-free_. This dataset is a simplified version of the real Starbucks app because the underlying simulator only has one product whereas Starbucks actually sells dozens of products.
 
 ## 3. Results
 <img src="images/clusters_marks.png" style="margin: 10px 0px"/>
