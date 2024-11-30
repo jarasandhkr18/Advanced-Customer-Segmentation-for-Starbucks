@@ -25,7 +25,7 @@ The published dataset contains simulated data that mimics customer behaviors on 
 * `data/transcript.json` Dataset containing time-stamped records for transactions, offers received, offers viewed, and offers completed by customers.
 
 ## 3. Results
-<img src="images/clusters_marks.png" style="margin: 10px 0px"/>
+<img src="clusters_marks.png" style="margin: 10px 0px"/>
 
 With the help of the plot above and collected data during the project, summary of each cluster is as follows:
 
