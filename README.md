@@ -6,7 +6,7 @@
 
 The company is assumed to currently promote products to customers with no prior knowledge of their segments. It is possible hence to analyse the data to find patterns in customer behaviors. This helps the company in aiming and tailoring their marketing efforts and resources to consumers who exhibit similar characteristics and are considered most likely to opt in for business’s offerings. This form of target marketing is important because it helps the company by maximizing revenue while maintaining promotional campaigns cost smartly low. To do this, an unsupervised learning technique will be used to cluster customers into groups that can be be investigated separately to better understand their qualities and engage them accordingly.
 
-In this project, which is to be submitted as a [Udacity's Data Scientist](https://www.udacity.com/course/data-scientist-nanodegree--nd025?utm_source=gsem_brand&utm_medium=ads_n&utm_campaign=8305564283_c&utm_term=85684766815_sa&utm_keyword=udacity%20data%20science_e&gclid=CjwKCAiA3abwBRBqEiwAKwICA4Cgp53FH7YGsEl-Jd_7to46zhiH3nTGxkv4fpPBaND6bK1tASWO-BoCUeoQAvD_BwE) capstone project, I attempted to propose a solution that helps the company in forming better understanding of their customer base using the published data. An unsupervised learning technique is used  to segment customers and measure how each segment behave. In particular, [K-Means](https://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html) clustering algorithm is used. The provided dataset of courses went through different phases at first before being ready for modeling. Starting with cleaning and ending with the final dataset grouped by customer profiles with their data aggreated. In addition to that, a blog post containing an overview of the project is [published](https://medium.com/@alghsaleh/starbucks-customers-segmentation-e8a6fb94a5cc?source=friends_link&sk=20f10101ea91cf8aa552eddd6f393214) on Medium.
+In this project, I attempted to propose a solution that helps the company in forming better understanding of their customer base using the published data. An unsupervised learning technique is used  to segment customers and measure how each segment behaves. In particular, [K-Means](https://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html) clustering algorithm is used. The provided dataset of courses went through different phases at first before being ready for modeling. Starting with cleaning and ending with the final dataset grouped by customer profiles with their data aggregated. 
 
 Here’s a high-level overview of the workflow followed in this project:
 
@@ -49,11 +49,3 @@ With the help of the plot above and collected data during the project, summary o
 
 **Cluster**  `5`: This cluster seems to be formed of customers who are completely inactive during non-promo periods with anvrage spend of lowest  $1.23. That increase to, still lowest,  $6.48 average spend in promo periods. Hence an increase in RFM score of 360% but that is due to very low average spend in non-promo periods to begin with. Their view and completion rates are among the lowest if not the lowest. This affects their response score being also among the lowest. Also, does not exhibit a pattern by which it can be said they favor a specific offer type. This cluster of customers seem to be a prime target for further and separate investigation.
 
-## 4. Dependencies 
-
-The notebook was written using **python 3.6.10**. No extra packages are necessary beyond the Anaconda distribution. Main packages used are; **numpy 1.18.1** and **pandas 0.25.3** for data manipulating, **scikit-learn 0.22.1** for machine learning, and **matplotlib 3.1.1** and **seaborn 0.9.0** for visualizations.
-
-## 5. Acknowledgements
--   [Udacity](https://www.udacity.com/)  for tremendous guidance and mentoring.
--   [MiSK Academy Scholarships](https://misk.org.sa/miskacademy/)  for providing this great opportunity.
--   [Starbucks](https://www.starbucks.com/)  for providing data to work with in this project.
